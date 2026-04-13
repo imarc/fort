@@ -6,8 +6,10 @@ Whitelist-driven **filters** and **sorts** for Eloquent **index** (list/collecti
 
 ## Requirements
 
-- PHP ^8.4
-- Laravel ^12.0
+- **PHP** ^8.2  
+- **Laravel** 10.x through 13.x
+
+Fort does not use framework-only APIs tied to a single major. (Laravel 10 still supports PHP 8.1; this package requires 8.2 so one floor covers Laravel 11 and 12. **Laravel 13** currently requires **PHP ^8.3** upstream—your app’s PHP version must satisfy both Fort and the framework.) When you run `composer update` inside this repo, Composer picks the newest Laravel that satisfies the constraint unless you pin a version.
 
 ## Install (consuming application)
 
