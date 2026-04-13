@@ -21,7 +21,7 @@ From your Laravel application root:
 composer require imarc/fort
 ```
 
-Composer will pick a release compatible with your Laravel and PHP versions. To pin a major line, use a constraint such as `composer require imarc/fort:^0.0.1` (see the version list on [Packagist](https://packagist.org/packages/imarc/fort)).
+Composer will pick a release compatible with your Laravel and PHP versions. To pin a major line, use a constraint such as `composer require imarc/fort:^1.0` (see the version list on [Packagist](https://packagist.org/packages/imarc/fort)).
 
 There is **no** service provider: import the request base class, builder trait, and related types directly (see **Architecture** below).
 
