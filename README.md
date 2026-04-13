@@ -2,8 +2,6 @@
 
 **Safe API filtering & sorting for Laravel**
 
-*Fort* is a portmanteau of **filter** + **sort**. Composer package: **`imarc/fort`**.
-
 Whitelist-driven **filters** and **sorts** for Eloquent **index** (list/collection) endpoints. Clients send optional `filters[...]` and `sort` / `sort[]` query parameters; only keys you map in PHP are applied to the query. Everything else is ignored, so arbitrary `WHERE` / `ORDER BY` cannot be injected through the query string.
 
 ## Requirements
