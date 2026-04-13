@@ -137,10 +137,6 @@ Item::query()
 
 (Adjust namespaces and add your own validation rules for filter values.)
 
-## Full specification
-
-This library was extracted from the Marriott ResiX application. A longer reference document with edge cases and examples lives in that repo at [`docs/filtering.md`](../../docs/filtering.md) (relative to this package directory when both are checked out together).
-
 ## Development
 
 ```bash
